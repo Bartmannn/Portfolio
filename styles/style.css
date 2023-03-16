@@ -46,6 +46,11 @@ nav ul {
     overflow: hidden;
 }
 
+nav ul a {
+    text-decoration: none;
+    color: #DBEDF3;
+}
+
 nav ul li{
     margin: 2em;
     font-size: 1em;
@@ -72,31 +77,46 @@ nav footer div {
 }
 
 #fb {
-    background-image: url("./resources/facebook.png");
+    background-image: url("../resources/facebook.png");
 }
 #fb:hover {
     cursor: pointer;
-    background-image: url("./resources/facebookHover.png");
+    background-image: url("../resources/facebookHover.png");
 }
 
 #yt {
-    background-image: url("./resources/youtube.png");
+    background-image: url("../resources/youtube.png");
 }
 #yt:hover {
     cursor: pointer;
-    background-image: url("./resources/youtubeHover.png");
+    background-image: url("../resources/youtubeHover.png");
 }
 
 #gitHub {
-    background-image: url("./resources/github.png");
+    background-image: url("../resources/github.png");
 }
 #gitHub:hover {
     cursor: pointer;
-    background-image: url("./resources/githubHover.png");
+    background-image: url("../resources/githubHover.png");
 }
 
 main {
     width: 80vw;
     height: 100vh;
     order: 2;
+    background-color: #98DFD6;
+    color: darkslategray;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main p {
+    width: 90%;
+    margin: 10px auto;
+    text-align: justify;
 }

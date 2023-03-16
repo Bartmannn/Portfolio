@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: #00235B;
+    color: #DBEDF3;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+nav {
+    width: 20vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    order: 1;
+    text-align: center;
+    border-style: solid;
+    border-color: #DBEDF3;
+    border-width: 0 1px 0 0;
+}
+
+nav h1 {
+    margin: 0;
+    padding: 1em;
+    font-size: 2em;
+    padding: 10px;
+}
+
+nav footer {
+    margin: 0;
+}
+
+nav hr {
+    border-width: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    letter-spacing: 2px;
+    font-weight: 800;
+    overflow: hidden;
+}
+
+nav ul li{
+    margin: 2em;
+    font-size: 1em;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li:hover {
+    background-color: #E21818;
+    cursor: pointer;
+}
+
+nav footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav footer div {
+    width: 2.5em;
+    height: 2.5em;
+    background-size: cover;
+    margin: 15px;
+}
+
+#fb {
+    background-image: url("./resources/facebook.png");
+}
+#fb:hover {
+    cursor: pointer;
+    background-image: url("./resources/facebookHover.png");
+}
+
+#yt {
+    background-image: url("./resources/youtube.png");
+}
+#yt:hover {
+    cursor: pointer;
+    background-image: url("./resources/youtubeHover.png");
+}
+
+#gitHub {
+    background-image: url("./resources/github.png");
+}
+#gitHub:hover {
+    cursor: pointer;
+    background-image: url("./resources/githubHover.png");
+}
+
+main {
+    width: 80vw;
+    height: 100vh;
+    order: 2;
+}
